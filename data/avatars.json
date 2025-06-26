@@ -3,18 +3,37 @@
         "name": "Naruto",
         "rank": "genin",
         "element": "wind",
-        "stats": {"attack": 5, "defense": 4, "chakra": 6, "speed": 5},
+        "stats": {"attack": 5, "defense": 4, "chakra": 6, "speed": 5, "hp": 20},
         "attacks": ["Punch", "Rasengan", "Nine-Tails Strike"],
         "level": 1,
-        "power": 10
+        "power": 10,
+        "main": true
     },
     {
         "name": "Sasuke",
         "rank": "genin",
         "element": "lightning",
-        "stats": {"attack": 5, "defense": 4, "chakra": 6, "speed": 5},
+        "stats": {"attack": 5, "defense": 4, "chakra": 6, "speed": 5, "hp": 20},
         "attacks": ["Kick", "Chidori", "Susanoo"],
         "level": 1,
         "power": 10
+    },
+    {
+        "name": "Sakura",
+        "rank": "genin",
+        "element": "earth",
+        "stats": {"attack": 4, "defense": 5, "chakra": 5, "speed": 4, "hp": 18},
+        "attacks": ["Punch", "Heal", "Cherry Blossom Impact"],
+        "level": 1,
+        "power": 8
+    },
+    {
+        "name": "Kakashi",
+        "rank": "jonin",
+        "element": "lightning",
+        "stats": {"attack": 6, "defense": 5, "chakra": 6, "speed": 5, "hp": 25},
+        "attacks": ["Kick", "Lightning Blade", "Sharingan Strike"],
+        "level": 5,
+        "power": 15
     }
 ]
