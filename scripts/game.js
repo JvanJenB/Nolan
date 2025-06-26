@@ -25,9 +25,15 @@ async function initGame() {
     const player = new Player('Hero');
     player.squad.push(avatars[0]);
 
+    // Open the first available pack for demonstration
+    const reward = openPack(packs[0]);
+    player.chakra += reward.chakra;
+
+    // Grab the first mission using the helper
+    const mission = getMission(1, missions);
+
     document.getElementById('game-container').innerText = `Welcome, ${player.name}!`;
-    // Placeholder for combat
-    console.log('Start mission', missions[0]);
+    console.log('Start mission', mission);
     startCombat(player.squad, [avatars[1]]);
 }
 
