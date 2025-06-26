@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "First Training",
+        "description": "Defeat one enemy",
+        "reward": {"xp": 100, "chakra": 50}
+    }
+]

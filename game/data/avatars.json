@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Naruto",
+        "rank": "genin",
+        "element": "wind",
+        "stats": {"attack": 5, "defense": 4, "chakra": 6, "speed": 5},
+        "attacks": ["Punch", "Rasengan", "Nine-Tails Strike"],
+        "level": 1,
+        "power": 10
+    },
+    {
+        "name": "Sasuke",
+        "rank": "genin",
+        "element": "lightning",
+        "stats": {"attack": 5, "defense": 4, "chakra": 6, "speed": 5},
+        "attacks": ["Kick", "Chidori", "Susanoo"],
+        "level": 1,
+        "power": 10
+    }
+]
