@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Training Scroll",
+        "rarity": "common",
+        "rewards": ["avatar", "chakra"]
+    },
+    {
+        "name": "Battle Scroll",
+        "rarity": "rare",
+        "rewards": ["avatar", "chakra", "materials"]
+    },
+    {
+        "name": "Legend Scroll",
+        "rarity": "epic",
+        "rewards": ["avatar", "chakra", "materials"]
+    }
+]
