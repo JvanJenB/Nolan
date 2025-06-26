@@ -1,12 +1,17 @@
 export function startCombat(playerSquad, enemySquad) {
-    console.log('Combat start');
     // Very basic turn simulation
-    let playerAttack = playerSquad[0].stats.attack;
-    let enemyAttack = enemySquad[0].stats.attack;
+    const playerAttack = playerSquad[0].stats.attack;
+    const enemyAttack = enemySquad[0].stats.attack;
 
+    let winner = 'Enemy';
     if (playerAttack >= enemyAttack) {
-        console.log('Player wins!');
-    } else {
-        console.log('Enemy wins!');
+        winner = 'Player';
     }
+
+    const resultEl = document.getElementById('combat-result') || document.getElementById('game-container');
+    if (resultEl) {
+        resultEl.innerText = `${winner} wins!`;
+    }
+
+    return winner;
 }
