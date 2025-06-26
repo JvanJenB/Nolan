@@ -1,4 +1,6 @@
-export function getMission(id) {
-    // Placeholder mission lookup
-    return { id, name: 'Mission ' + id };
+export function getMission(id, missions) {
+    if (!Array.isArray(missions)) {
+        return null;
+    }
+    return missions.find(m => m.id === id) || null;
 }
