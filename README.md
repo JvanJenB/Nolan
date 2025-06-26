@@ -11,7 +11,7 @@ python3 -m http.server 8000
 ```
 
 Then open `http://localhost:8000` in your browser to play the game.
-Click the **Start Battle** button to try the demo combat.
+Click the **Start Battle** button and use the arrow keys or click the enemy to attack.
 
 ## Publishing with GitHub Pages
 

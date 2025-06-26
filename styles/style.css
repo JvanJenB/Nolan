@@ -13,3 +13,19 @@ body {
     background-color: #fff;
     border: 1px solid #ccc;
 }
+
+#battlefield {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.character {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

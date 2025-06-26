@@ -44,7 +44,7 @@ async function initGame() {
 
     const startBtn = document.getElementById('start-battle-btn');
     startBtn.addEventListener('click', () => {
-        startCombat(player.squad, [avatars[1]]);
+        startCombat(player.squad[0], avatars[1]);
     });
 }
 
