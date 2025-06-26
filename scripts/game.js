@@ -38,9 +38,14 @@ async function initGame() {
     // Grab the first mission using the helper
     const mission = getMission(1, missions);
 
-    document.getElementById('game-container').innerText = `Welcome, ${player.name}!`;
+    const messageEl = document.getElementById('message');
+    messageEl.innerText = `Welcome, ${player.name}!`;
     console.log('Start mission', mission);
-    startCombat(player.squad, [avatars[1]]);
+
+    const startBtn = document.getElementById('start-battle-btn');
+    startBtn.addEventListener('click', () => {
+        startCombat(player.squad, [avatars[1]]);
+    });
 }
 
 document.addEventListener('DOMContentLoaded', initGame);
